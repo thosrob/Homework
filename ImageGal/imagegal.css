@@ -72,3 +72,6 @@ p {
   font-weight: 600;
   color: white;
 }
+.row {
+  padding: inherit;
+}

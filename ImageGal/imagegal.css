@@ -15,6 +15,7 @@ div.img {
   color: white;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  padding-top: 30px;
 }
 .topnav {
     list-style-type: none;

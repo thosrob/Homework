@@ -1,121 +1,58 @@
 body {
   background-image: url(http://eskipaper.com/images/black-abstract-3.jpg);
 }
-.row {
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 20px;
-  padding-bottome: 20px;
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
-#title  {
-  text-align: center;
-  font-size: 50px;
+#title {
+  font-size: 60px;
+  font-style: italic;
   font-family: cursive;
+  text-align: center;
   color: white;
 }
-.col-xs-12 {
-  height: 100px;
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+ul.topnav li {
+  float: left;
+}
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+  }
+ul.topnav li a:hover {
+    background-color: #555;
+}
+#line1 {
+  border-top: 6px double yellow;
+  padding-top: 20px;
+}
+#title2 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: fantasy;;
+  text-align: left;
   color: white;
-  border: 2px solid red;
-  margin-bottom: 20px;
 }
-#image1 {
-  height: 250px;
-  background-image: url(http://marcinignac.com/blog/fast-dynamic-geometry-in-webgl/fast-dynamic-geometry.jpg);
-  height: 250px;
-  background-size: cover;
-  margin-top: 80px;
-}
-.col-md-6 {
-  height: 100px;
+#desp {
+  font-size: 20px;
+  font-style: normal;
+  font-family: fantasy;;
+  text-align: left;
   color: white;
-  border: 2px solid red;
-  margin-bottom: 20px;
-}
-#image2 {
-  background-image: url(https://www.wired.com/images_blogs/wiredscience/2012/06/pi-walk-660x516.jpg);
-  height: 250px;
-  background-size: cover;
-}
-#image3 {
-  background-image: url(https://www.newton.ac.uk/files/covers/968361.jpg);
-  height: 250px;
-  background-size: cover;
-}
-.col-md-4 {
-  height: 100px;
-  color: white;
-  border: 2px solid red;
-  margin-bottom: 20px;
-}
-.col-md-8 {
-  height: 100px;
-  color: white;
-  border: 2px solid red;
-  margin-bottom: 20px;
-
-}
-#image4 {
-  background-image: url(http://il9.picdn.net/shutterstock/videos/2318930/thumb/5.jpg);
-  height: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#image5 {
-  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQQMRlbMj1PXGxH3ZVFGLVemaA_IPX8Y_B2R_UKmf8KmQ8aYHH);
-  height: 250px;
-  background-size: cover;
-}
-#image6 {
-  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBjcYF7BF_1anc7EM5885jX6jx03DeKb0EJZcE-5PsKfLVK1gW);
-  height: 250px;
-  background-size: cover;
-}
-#image7 {
-  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRyVD-PcUoD1JP_2l8LbRP0RDKy1sbI1SLxo1cysDC9yi-hVg2t);
-  height: 250px;
-  background-size: cover;
-}
-#image8 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJdPn3h4wKOjib-3ed4ITnS-AkFVZjh3-5Jiog5420mkzDU8RA);
-  height: 250px;
-  background-size: cover;
-}
-/* -----------Smartphone View----------- */
-@media only screen and (min-width : 480px) {
-  body {
-    background-color: blue;
-  }
-  .container-fluid {
-    width: 100%;
-    padding-bottom: 100%;
-  }
-  .col-xs-12 {
-    background-size: cover;
-    height: 250px
-  }
-}
-/*-----------Tablet View---------------*/
-@media only screen and (min-width : 650px) and (min-width : 481px) {
-  body {
-    background-color: yellow;
-  }
-  .container-fluid {
-    width: 80%;
-    padding-bottom: 80%;
-  }
-}
-/*----------Desktop View--------------*/
-@media only screen and (min-width : 900px) {
-  body {
-    background-color: white;
-  }
-  .container-fluid {
-    width: 100%;
-    padding-bottom: 100%;
-  }
-  .row {
-    background-size: cover;
-    height: 350px;
-  }
 }

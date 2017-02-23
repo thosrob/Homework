@@ -1,0 +1,87 @@
+.style1 {
+  border-top: 1.5px solid black;
+  width: 80%;
+}
+.my-float {
+  float:left;
+  width: 50%;
+  height: 100%;
+}
+.my-float2 {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+img {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 75px;
+  padding-right: 10px;
+}
+.img1 {
+  float: right;
+  width: 280px;
+  height: 250px;
+  margin-left: 30px;
+}
+p {
+  font-family: Arial;
+  font-size: 14;
+}
+span {
+  float: left;
+  width: 0.9em;
+  font-size: 400%;
+  font-family: cursive;
+  line-height: 80%;
+}
+#content {
+  width: 1000px;
+  margin: auto;
+}
+.head {
+  background-color: black;
+  width: 100%;
+  font-family: fantasy;
+  font-size: 26px;
+  text-align: center;
+  color: red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+a:hover {
+  background-color: white;
+}
+button {
+  position: fixed;
+  right: 10px;
+}
+.button {
+  float: right;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: none;
+  box-shadow: 0 9px #999;
+}
+.button:hover {
+  background-color: #3e8e41;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}

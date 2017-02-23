@@ -1,0 +1,120 @@
+#style {
+  background-color: black;
+}
+.row {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottome: 20px;
+}
+#title  {
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+}
+.col-xs-12 {
+  height: 100px;
+  color: white;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+#image1 {
+  height: 250px;
+  background-image: url(http://marcinignac.com/blog/fast-dynamic-geometry-in-webgl/fast-dynamic-geometry.jpg);
+  height: 250px;
+  background-size: cover;
+  margin-top: 80px;
+}
+.col-md-6 {
+  height: 100px;
+  color: white;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+#image2 {
+  background-image: url(https://www.wired.com/images_blogs/wiredscience/2012/06/pi-walk-660x516.jpg);
+  height: 250px;
+  background-size: cover;
+}
+#image3 {
+  background-image: url(https://www.newton.ac.uk/files/covers/968361.jpg);
+  height: 250px;
+  background-size: cover;
+}
+.col-md-4 {
+  height: 100px;
+  color: white;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+.col-md-8 {
+  height: 100px;
+  color: white;
+  border: 2px solid red;
+  margin-bottom: 20px;
+
+}
+#image4 {
+  background-image: url(http://il9.picdn.net/shutterstock/videos/2318930/thumb/5.jpg);
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#image5 {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQQMRlbMj1PXGxH3ZVFGLVemaA_IPX8Y_B2R_UKmf8KmQ8aYHH);
+  height: 250px;
+  background-size: cover;
+}
+#image6 {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBjcYF7BF_1anc7EM5885jX6jx03DeKb0EJZcE-5PsKfLVK1gW);
+  height: 250px;
+  background-size: cover;
+}
+#image7 {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRyVD-PcUoD1JP_2l8LbRP0RDKy1sbI1SLxo1cysDC9yi-hVg2t);
+  height: 250px;
+  background-size: cover;
+}
+#image8 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJdPn3h4wKOjib-3ed4ITnS-AkFVZjh3-5Jiog5420mkzDU8RA);
+  height: 250px;
+  background-size: cover;
+}
+/* -----------Smartphone View----------- */
+@media only screen and (min-width : 480px) {
+  #style {
+    background-color: blue;
+  }
+  .container-fluid {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+  .col-xs-12 {
+    background-size: cover;
+    height: 250px
+  }
+}
+/*-----------Tablet View---------------*/
+@media only screen and (min-width : 650px) and (min-width : 481px) {
+  #style {
+    background-color: yellow;
+  }
+  .container-fluid {
+    width: 80%;
+    padding-bottom: 80%;
+  }
+}
+/*----------Desktop View--------------*/
+@media only screen and (min-width : 900px) {
+  #style {
+    background-color: white;
+  }
+  .container-fluid {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+  .row {
+    background-size: cover;
+    height: 350px;
+  }
+}

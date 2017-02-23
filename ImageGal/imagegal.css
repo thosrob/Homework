@@ -1,9 +1,6 @@
 body {
   background-image: url(http://eskipaper.com/images/black-abstract-3.jpg);
 }
-#style {
-  background-color: black;
-}
 .row {
   padding-left: 25px;
   padding-right: 25px;
@@ -13,7 +10,8 @@ body {
 #title  {
   text-align: center;
   font-size: 50px;
-  font-family: fantasy;
+  font-family: cursive;
+  color: white;
 }
 .col-xs-12 {
   height: 100px;
@@ -85,7 +83,7 @@ body {
 }
 /* -----------Smartphone View----------- */
 @media only screen and (min-width : 480px) {
-  #style {
+  body {
     background-color: blue;
   }
   .container-fluid {
@@ -99,7 +97,7 @@ body {
 }
 /*-----------Tablet View---------------*/
 @media only screen and (min-width : 650px) and (min-width : 481px) {
-  #style {
+  body {
     background-color: yellow;
   }
   .container-fluid {
@@ -109,7 +107,7 @@ body {
 }
 /*----------Desktop View--------------*/
 @media only screen and (min-width : 900px) {
-  #style {
+  body {
     background-color: white;
   }
   .container-fluid {

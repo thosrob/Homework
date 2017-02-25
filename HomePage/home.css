@@ -7,6 +7,18 @@ body  {
   padding-left: 420px;
   padding-top: 40px;
 }
+.marquee {
+    position: absolute;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+}
+.top {
+  font-size: 60px;
+  font-family: cursive;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px yellow;
+}
 .topnav {
   list-style-type: none;
   margin: 0;

@@ -1,0 +1,38 @@
+body  {
+  background-image: url(http://eskipaper.com/images/black-abstract-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1 {
+  padding-left: 420px;
+  padding-top: 40px;
+}
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  text-align: center;
+}
+ul.topnav li {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+}
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 16px 18px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family: cursive;
+  }
+ul.topnav li a:hover {
+    background-color: #555;
+  }
+#line1 {
+    border-top: 6px double yellow;
+    align: center;
+  }

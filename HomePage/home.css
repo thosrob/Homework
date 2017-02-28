@@ -4,15 +4,13 @@ body  {
   background-size: cover;
   padding-left: 20px;
 }
-/*instagram button*/
-/*.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 60px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
 }
 .fa:hover {
     opacity: 0.7;
@@ -20,7 +18,7 @@ body  {
 .fa-instagram {
   background: #125688;
   color: white;
-}*/
+}
 .img1 {
   padding-left: 480px;
   padding-top: 40px;
@@ -36,6 +34,7 @@ span {
   }
 .row {
   float:left;
+  padding-right: 30px;
 }
 .col-lg-12 {
   color: white;
@@ -44,7 +43,6 @@ span {
   font-weight: bolder;
   text-align: center;
 }
-/*nav bar*/
 .top {
   font-size: 60px;
   font-family: cursive;
@@ -52,6 +50,7 @@ span {
   color: white;
   text-shadow: 2px 2px yellow;
 }
+/*nav bar*/
 .topnav {
   list-style-type: none;
   margin: 0;
@@ -81,6 +80,12 @@ ul.topnav li a:hover {
   background-color: gray;
 }
 /*end nav bar*/
+img {
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 440px;
+  height: 440px;
+}
 #line1 {
     border-top: 6px double yellow;
     align: center;

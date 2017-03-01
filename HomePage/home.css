@@ -81,10 +81,8 @@ ul.topnav li a:hover {
 }
 /*end nav bar*/
 img {
-  padding-left: 50px;
-  padding-top: 30px;
-  width: 440px;
-  height: 440px;
+  position: relative;
+  padding-left: 40px;
 }
 #line1 {
     border-top: 6px double yellow;

@@ -71,7 +71,7 @@ ul {
   list-style-position:inside;
   text-align: center;
   paddiing-left: 60px;
-  color: pink;
+  color: yellow;
   font-size: 18px;
 }
 @media screen and (max-width: 600px){
